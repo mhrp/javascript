@@ -1,21 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 <script>
-function myFunction() {
-    alert("Hello World!");
-    //document.getElementById("demo").innerHTML = "Hello World!";
-}
+    function callMatheusao() {
+        alert("Fala Matheusao!");
+    }
 </script>
+<title>INDEX</title>
 </head>
 
 <body>
-
-<p>When you click "Try it", a function will be called.</p>
-<p>The function will display a message.</p>
-
-<button onclick="myFunction()">Try it</button>
-
+    <style>
+        div.main{
+            font-family: 'Roboto Slab', serif;
+        }
+        button.pretty{
+            font-family: 'Roboto Slab', serif;
+            width: 80px;
+            position: fixed;
+            left: 47%;
+            border: none;
+            background-color: #00c9ff;
+            
+        }
+        button.pretty:hover{
+            box-shadow: rgb(128, 128, 128) 2px 2px 3px -2px;
+        }
+        hr{
+            width: 500px;   
+        }
+</style>
+<div class="main">
+    <center>
+    <h1>Hello World</h1>
+    Press this button to see some basic javascript
+</div>
+</br>
+<hr>
+</br>
+<button class="pretty" onclick="callMatheusao()">Try it</button>
+</center>
 
 
 </body>
